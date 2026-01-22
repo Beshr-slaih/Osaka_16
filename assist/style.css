@@ -28,14 +28,27 @@ body{
 }
 
 .hero{
-        background-image: url(./../assist/image/hero/bg.jpg);
-        background-size: cover;
+    background-image: url(./../assist/image/hero/bg.jpg);
+    background-size: cover;
 }
 
 .hero a{
     color: var(--primaryColor);
 }
 
-.about{
+.about,.portfolio{
     background-image: url(./../assist/image/about/light_dot.jpg);
+}
+
+.portfolio .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: var(--primaryColor);
+}
+
+.portfolio .nav-link{
+    color: #000;
+    border: none;
+}
+
+.portfolio .nav-tabs{
+    border-bottom: none;
 }
